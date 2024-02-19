@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto final js</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Task Container -->
+    <div id="tasks-container">
+        <div id="tasks-header">
+            <h2>Salve as suas tarefas:</h2>
+            <form action="" id="add-task-form">
+                <input type="text" id="task-title" placeholder="O que deseja fazer?">
+                <button id="add-btn" type="submit">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- Task List Container -->
+
+        <div id="tasks-list-container">
+            <h2>Aqui estão as suas tarefas:</h2>
+            <ul id="task-list">
+                <li class="task-box template hide">
+                    <span class="task-title"></span>
+                    <i class="done-btn fa-solid fa-check"></i>
+                    <i class="remove-btn fa-solid fa-xmark"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Task Container -->
+
+    <!-- Script Link Area -->
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
